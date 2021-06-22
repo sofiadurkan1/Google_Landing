@@ -1,0 +1,21 @@
+a{
+    color: gray;
+    font-family: Arial, sans-serif;
+
+}
+
+.right{
+    opacity: 0.7;
+    float: right;
+    display: flex;
+    justify-content:space-around ;
+    width: 16px;
+
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    width: 6%;
+
+}
+  

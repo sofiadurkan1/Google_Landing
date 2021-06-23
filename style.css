@@ -1,3 +1,163 @@
+.nav1{
+    color: black;
+}
+nav a{
+    text-decoration: underline;
+    margin-left: 0.75em;
+    margin-right: 00.75em;
+    font-size: 14px;
+    cursor: pointer;
+}
+body{
+    font-family: Arial,sans-serif;
+    white-space: nowrap;
+    margin: 0;
+    width: 100%;
+    display: block;
+}
+#sign-in{
+    color: white;
+    background-color: #4285f4;
+    border: none;
+    height: 35px;
+    width: 80px;
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+button{
+    text-rendering: auto;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    /* margin: 0em; */
+
+    font: 400 px;
+    padding: 1px 6px;
+}
+#google{
+    height: 95px;
+    width: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+
+}
+.search{
+    text-align: center;
+    /* padding-top: 0px;
+    margin-left: 100px; */
+
+}
+.button-container{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#search-text{
+    font-size: 16px;
+    height: 38px;
+    width: 460px;
+    border-radius: 25px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    padding-left: 50px;
+
+}
+input{
+    color: black white;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    text-align: start;
+    cursor: text;
+    margin: 0em;
+    font: 400px;
+}
+#btn1{
+    height: 36px;
+    width: 120px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;
+    margin-right: 8px;
+
+}
+#btn2{
+    height: 36px;
+    width: 120px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;
+    margin-right: 8px;
+
+}
+#glass{
+    height: 3px;
+    width: 3px;
+    position: relative;
+    top: 10px;
+    right: 4px;
+}
+#microphone{
+    position: relative;
+    top: 5px;
+    right: 74px;
+    height: 20px;
+}
+#language{
+    text-align: center;
+    margin-top: 20px;
+    font-size: small;
+}
+span{
+    color: blue;
+    text-decoration-line: underline;
+}
+p{
+    display: block;
+    text-align: center;
+
+}
+.country{
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 13px;
+    color: #5f6368;
+}
+div{
+    display: block;
+}
+footer{
+    line-height: 40px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    padding-left: 5px;
+    background-color: #f2f2f2;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+}
+.footer1{
+    float: left;
+}
+.footer2{
+    float: right;
+    margin-right: 25px;
+
+}
+.footer-link{
+    color: #5f6368;
+}
+
+
+
+
+
+
+
 a{
     color: gray;
     font-family: Arial, sans-serif;

@@ -8,34 +8,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <header>
         <nav class="left">
            
-                <a class="left-nav" href="#About">About</a>
-                <a class="left-nav" href="#Store">Store</a>
+                <a class="nav1" href="#About">About</a>
+                <a class="nav1" href="#Store">Store</a>
 
         </nav>
 
         <nav class="right">
             
-                 <a class="right-nav"  href="#Gmail"></a>Gmail</a>
-                 <a  class="right-nav" href="#Images">Images</a>
+                 <a class="nav1"  href="#Gmail">Gmail</a>
+                 <a  class="nav1" href="#Images">Images</a>
+                 <a href="#" class="nav1" >
+                     <img src="./images/appicon.png" alt="">
+                 </a>
+                 <button class="nav1" id="sign-in">Sign In
+
+                 </button>
                  
         </nav>
+        <!-- <div class="clear"></div> -->
+    </header>
     
-    </div>
-    <img id="" src="./images/googlelogo.png" alt="">
+    
+    <img id="google" src="./images/googlelogo.png" alt="">
     <div class="search">
-        <input type="text" name="search" id="search-text" placeholder="Search Google or type a URL">
-        <img id="glass" src="/images/magnifying_glass.jpeg" alt="">
+        <input type="text" name="search" id="search-text">
+        <!-- <img id="glass" src="/images/magnifying_glass.jpeg" alt=""> -->
     </div>
     <a href="#mic">
-        <img src="./images/google_microphone.png" alt="">
+        <!-- <img id="microphone" src="./images/google_microphone.png" alt=""> -->
 
     </a>
     <div class="button-container">
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
+        <button id="btn1" type="button" name="button">Google Search</button>
+        <button id="btn2" type="button" name="button">I'm Feeling Lucky</button>
     
     </div>
     <div class="lang">
@@ -44,15 +52,15 @@
     <footer>
         <div class="country">Turkey</div>
         <nav class="footer1">
-            <a href="#ad" class="ad">Advertising </a>
-            <a href="#business " class="business ">Business </a>
-            <a href="#how" class="how">How Search Works</a>
+            <a href="#ad" class="footer-link">Advertising </a>
+            <a href="#business " class="footer-link">Business </a>
+            <a href="#how" class="footer-link">How Search Works</a>
 
         </nav>
         <nav class="footer2">
-            <a href="privacy " class="privacy ">Privacy </a>
-            <a href="terms" class="terms">Terms</a>
-            <a href="settings" class="settings">Settings</a>
+            <a href="privacy " class="footer-link">Privacy </a>
+            <a href="terms" class="footer-link">Terms</a>
+            <a href="settings" class="fooer-link">Settings</a>
 
         </nav>
     </footer>
